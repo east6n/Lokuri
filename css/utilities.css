@@ -34,11 +34,10 @@
 }
 
 /* Backgrounds & colored buttons */
-.btn-primary {
+.bg-primary, .btn-primary{
   background-color: var(--primary-color);
   color: #fff;
 }
-
 .text-center {
   text-align: center;
 }
