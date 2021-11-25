@@ -46,7 +46,7 @@ img {
     width: 100%;
 }
 
-/* Nabar */
+/* Navbar */
 .navbar {
     background-color: var(--primary-color);
     color: #fff;
@@ -239,5 +239,5 @@ img {
   }
 
   .showcase-form {
-  width: 300px;
+    width: 300px;
   }
