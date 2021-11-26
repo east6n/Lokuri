@@ -43,7 +43,7 @@
             <h3 class="my-2">Essentials</h3>
             <nav>
                 <ul>
-                    <li><a href="#"></a>Introduction</li>
+                    <li><a class="text-primary" href="#"></a>Introduction</li>
                     <li><a href="#"></a>About Bradley</li>
                     <li><a href="#"></a>Installation</li>
                 </ul>
@@ -87,7 +87,13 @@
                 <h3>Install</h3>
                 <p>Mac (Homebrew)</p>
                 <pre><code>$ brew install bradley-cli</code></pre>
-    </div>
+                <p>NPM</p>
+                <pre><code>$ npm install bradley-cli</code></pre>
+                <p>Yarn</p>
+                <pre><code>$ yarn install bradley-cli</code></pre>
+
+            </div>
+        </div>
 </section>
  
 
@@ -95,7 +101,16 @@
 <footer class="footer bg-dark py-5">
 <div class="container grid grid-3">
     <div>
-        <h1>Bradley</h1>
+        <h1>Bradley</h1>.docs-main nav li {
+            font-size: 17px;
+            padding-bottom: 5px;
+            margin-bottom: 5px;
+            border-bottom: 1px #ccc solid;
+          }
+          
+          .docs-main a:hover {
+            font-weight: bold;
+          }
         <p>Copyright &copy; 2021</p>
     </div>
     <nav>
